@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+scikit-learn  # 기계 학습 관련
+sympy         # 선형대수, 미분 등 수학 연산용
+scipy         # 확률 통계, 회귀 분석 등
+jupyterlab    # 주피터 노트북 환경
