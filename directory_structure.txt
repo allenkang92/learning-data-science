@@ -1,61 +1,59 @@
 Coding_With_Math/   # 프로젝트 루트 디렉터리
 │
-├── numpy_practice/      # 넘파이 기초와 고급 주제 연습
-│   ├── notebooks/       # 넘파이 관련 주피터 노트북 파일 저장
-│   │   └── numpy_basics.ipynb
-│   │   └── numpy_advanced.ipynb
-│   ├── scripts/         # 넘파이 관련 스크립트 저장
-│   └── data/            # 넘파이 연습용 데이터
+├── core/
+│   ├── mathematics/
+│   │   ├── math_practice_01.ipynb ~ math_practice_08.ipynb
+│   │   └── probability_basics_01.ipynb
+│   └── python/
+│       └── python_basics_01.ipynb
 │
-├── pandas_practice/     # 판다스 기초와 데이터 분석 연습
-│   ├── notebooks/       # 판다스 관련 주피터 노트북 파일 저장
-│   │   └── pandas_basics.ipynb
-│   │   └── pandas_advanced.ipynb
-│   ├── scripts/         # 판다스 관련 스크립트 저장
-│   ├── data/            # 판다스 연습용 데이터 저장
-│   └── plots/           # "판다스 & Matplotlib 활용한 시각화 저장"
+├── data_analysis/
+│   └── pandas/
 │
-├── matplotlib_practice/ # Matplotlib 기초와 시각화 연습
-│   ├── notebooks/       # Matplotlib 관련 노트북 파일 저장
-│   │   └── matplotlib_basics.ipynb
-│   ├── plots/           # 생성한 시각화 파일 저장 (.png 등)
-│   ├── scripts/         # 시각화 관련 스크립트 저장
-│   └── data/            # 시각화 연습에 필요한 데이터
+├── data_visualization/
+│   └── matplotlib/
+│       └── matplotlib_practice01.ipynb
 │
-├── python_basics/       # 파이썬 기초 연습
-│   ├── notebooks/       # 파이썬 기초 문법 및 연습 노트북
-│   │   └── variables_constants.ipynb
-│   │   └── functions_exponents.ipynb
-│   ├── scripts/         # 파이썬 기초 스크립트
-│   └── README.md        # 파이썬 기초 개념 설명
+├── deep_learning/
+│   ├── imdb/
+│   │   ├── imdb_classification_01.ipynb
+│   │   ├── imdb_classification_01.py
+│   │   ├── imdb_classification_02.ipynb
+│   │   └── imdb_classification_02.py
+│   └── mnist/
+│       ├── mnist_classification_01~04.ipynb
+│       └── mnist_classification_01~04.py
 │
-├── math_basics/         # 수학 기초 연습 (거듭제곱, 삼각함수 등)
-│   ├── notebooks/       # 수학 기초 노트북
-│   │   └── exponents_polynomials.ipynb
-│   │   └── trigonometry.ipynb
-│   ├── scripts/         # 수학 관련 스크립트
-│   └── README.md        # 수학 기초 설명
+├── document_preparation/
+│   └── latex/
+│       └── latex_basics_01.ipynb
 │
-├── advanced_math/       # 선형대수, 미분, 확률 통계, 회귀 등 고급 수학
-│   ├── notebooks/       # 고급 수학 노트북
-│   │   └── linear_algebra.ipynb
-│   │   └── calculus.ipynb
-│   │   └── probability_statistics.ipynb
-│   │   └── regression_classification.ipynb
-│   ├── scripts/         # 고급 수학 스크립트
-│   └── data/            # 고급 수학 관련 데이터
+├── machine_learning/
+│   ├── fish_classification/
+│   │   ├── fish_classification_01~08.ipynb
+│   │   └── fish_classification_01~08.py
+│   ├── fruits/
+│   │   ├── fruit_classification_01~03.ipynb
+│   │   └── fruit_classification_01~03.py
+│   ├── network/
+│   │   ├── network.ipynb
+│   │   └── network.py
+│   └── wine/
+│       ├── wine_analysis_01~03.py
+│       └── wine_classification_01~03.ipynb
 │
-├── machine_learning/    # 기계 학습 관련 연습 (차원 축소, 역전파, 경사하강법)
-│   ├── notebooks/       # 기계 학습 노트북
-│   │   └── gradient_descent.ipynb
-│   │   └── backpropagation.ipynb
-│   │   └── dimensionality_reduction.ipynb
-│   ├── scripts/         # 기계 학습 관련 스크립트
-│   └── data/            # 기계 학습 연습 데이터
-│
-├── latex_practice/      # LaTeX 문법과 수식 작성 연습
-│   ├── notebooks/       # LaTeX 연습 노트북
-│   └── README.md        # LaTeX 기초 설명
+├── numerical_computing/
+│   ├── numpy/
+│   │   ├── numpy_basics01.ipynb
+│   │   └── numpy_practice01.ipynb
+│   └── scipy/
+│       ├── scipy_basics_01.py
+│       ├── scipy_data_analysis_01.py
+│       ├── scipy_integration_01.py
+│       ├── scipy_linear_algebra_01.md
+│       ├── scipy_linear_algebra_02.py
+│       ├── scipy_numpy_basics_01.py
+│       └── scipy_overview_01.md
 │
 ├── .gitignore           # 불필요한 파일을 Git에서 제외
 └── README.md            # 전체 프로젝트에 대한 설명
