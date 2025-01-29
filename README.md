@@ -10,5 +10,4 @@
 - SciPy
 - Matplotlib
 - scikit-learn
-- TensorFlow/Keras
 - LaTeX
